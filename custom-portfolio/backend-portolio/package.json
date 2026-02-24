@@ -1,0 +1,19 @@
+{
+  "name": "backend-portolio",
+  "version": "1.0.0",
+  "description": "Simple API for the custom portfolio site",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
